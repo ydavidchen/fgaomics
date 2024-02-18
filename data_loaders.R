@@ -4,21 +4,6 @@
 
 library(data.table)
 
-CANCERS <- c(
-  "COAD","READ", 
-  "GBM","LGG", 
-  "KIRC","KIRP", 
-  "STAD","ESCA", 
-  "LUAD","LUSC", 
-  
-  "LIHC", "PAAD",
-  "BRCA", "OV",
-  "BLCA",
-  "HNSC",
-  "PRAD",
-  "SKCM"
-)
-
 COLS_CBIO <- c("Patient ID","Sample ID", 
                "TCGA PanCanAtlas Cancer Type Acronym",
                "Cancer Type", "Cancer Type Detailed", "Subtype",
